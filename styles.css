@@ -1,0 +1,1496 @@
+/*==============================HEADINGS===================================*/
+
+h1, h2
+{
+	margin:0
+}
+
+body
+{
+	background-color: #fffafa;
+}
+
+footer
+{
+  height: 350px;
+	background-color: #3E3E5C;
+  width: 100%;
+	color: white;
+}
+
+
+/*===copyright box appears below the footer====*/
+#copyrightDeclaration
+{
+	background-color: #3E3E5C;
+	height: 50px;
+	width: 100%;
+}
+
+#copyrightDeclaration p
+{
+	color: white;
+	font-size: 17px;
+	font-family: 'Cabin', Tahoma, 'Geneva', sans-serif;
+	margin: 0;
+	padding-left: 740px;
+}
+
+#copyrightDeclaration a
+{
+	color: white;
+	font-family: 'Cabin', Tahoma, 'Geneva', sans-serif;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+/*===========Styling for footer elements==========*/
+
+footer p
+{
+	font-family: 'Cabin', Tahoma, 'Geneva', sans-serif;
+}
+
+/* footer classes in alphabetical order */
+
+.twitter-timeline
+{
+	margin-left: 10px;
+}
+
+/* footer id's in alphabetical order */
+
+/*the physical address of the building, shows on left-most side of the screen*/
+#footerAddress
+{
+  background-color: transparent;
+  float: left;
+	padding-left: 1%;
+	padding-top: 20px;
+	width: 10%;
+}
+
+/*logo that appears above the physical building address*/
+#footerAddress img
+{
+	width: 150px;
+}
+
+/*Google map*/
+#footerMap
+{
+	background-color: transparent;
+	float: left;
+	height: 275px;
+	width: 20%;
+}
+
+#footerMap p
+{
+	padding-left: 145px;
+}
+
+#footerSignUp
+{
+  background-color: transparent;
+  float: left;
+  height: 200px;
+	width: 20%;
+}
+
+#footerSignUp p
+{
+	padding-left: 70px;
+}
+
+#footerSignUpSubscribeForm button[type=submit]
+{
+  background-color: white;
+  border: none;
+  color: #3E3E5C;
+  cursor: pointer;
+  padding: 13px 20px;
+}
+
+#footerSignUpSubscribeForm input[type=email]
+{
+	background-color: #3E3E5C;
+	border: 3px solid white;
+	color: white;
+	padding: 10px 20px;
+}
+
+#footerSiteLinks
+{
+  background-color: transparent;
+  float: left;
+  width: 10%;
+}
+
+#footerSiteLinks a
+{
+	color: white;
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-size: 13px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+#footerSiteLinks p
+{
+	padding-left: 40px;
+}
+
+#footerSiteLinks ul
+{
+	list-style-type: none;
+}
+
+#footerSocialMedia
+{
+	background-color: transparent;
+  float: left;
+	width: 23%;
+}
+
+#footerSocialMedia img
+{
+	padding: 0px 10px;
+}
+
+#footerSocialMedia li
+{
+  float: left;
+}
+
+#footerSocialMedia p
+{
+	padding-left: 180px;
+}
+
+#footerSocialMedia ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#footerSocialMediaLogoFacebook
+{
+	width: 50px;
+}
+
+#footerSocialMediaLogoGooglePlus
+{
+	width: 81px;
+}
+
+#footerSocialMediaLogoInstagram
+{
+	width: 54px;
+}
+
+#footerSocialMediaLogoTwitter
+{
+	width: 65px;
+}
+
+#footerSocialMediaLogoYouTube
+{
+	width: 72px;
+}
+
+#map
+{
+	width: 379px;
+	height: 200px;
+}
+
+/*======= footer webkits in aplhabetical order ======*/
+
+/* code for envelope icon in footer */
+.material-icons
+{
+	color: white;
+	text-decoration: none;
+}
+
+/* code to change placeholder text colour in IE10 & IE11 for email input in footer */
+:-ms-input-placeholder
+{
+	color: white;
+}
+
+/* code to change placeholder text colour in Edge for email input */
+::-ms-input-placeholder
+{
+	color: white;
+}
+
+/* code to change placeholder text colour in Chrome & Firefox for email input in footer */
+::placeholder
+{
+  color: white;
+  opacity: 1;
+}
+
+/*============COMMON SECTIONS ACROSS ALL PAGES==================*/
+
+/*code to make navigation bar and header follow down the page*/
+#headerAndNavbar
+{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+/*========header elements styling==========*/
+
+/*== id's in aplhabetical order ==*/
+
+#header
+{
+	background-color: #F6FFFF;
+	height: 70px;
+	width: 100%;
+}
+
+#header button
+{
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 14px;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#header button:hover
+{
+	font-size:15px;
+	opacity:0.8;
+	transition:all 0.2s;
+}
+
+#headerCreateAccountButton
+{
+	background-color: #92D050;
+	float: right;
+	font-family: "Noto Sans JP", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+#headerCreateAccountButton:hover
+{
+	background-color: #6BA42C;
+}
+
+#headerLoginButton
+{
+	background-color: #FF315D;
+	float: right;
+	font-family: "Noto Sans JP", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+#headerLoginButton:hover
+{
+	background-color: #BC0028;
+}
+
+#headerLoginSymbol
+{
+	float: right;
+	height: 80%;
+	margin-right: 8px;
+	margin-top: 8px;
+}
+
+#headerSmallBookDJLogo
+{
+	margin-left: 0px;
+	margin-top: 5px;
+	width: 210px;
+}
+
+/*============ Navigation bar ================*/
+
+/*== classes in alphabetical order ==*/
+
+.navigationBarActive
+{
+  background-color: #5054FA;
+  color: white;
+}
+
+/*== id's in alphabetical order ==*/
+
+#navigationBar
+{
+	background-color: black;
+	padding: 15px;
+	text-align: left;
+}
+
+#navigationBar a
+{
+	color: white;
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-size: 22px;
+	padding: 15px;
+	text-decoration: none;
+}
+
+#navigationBar a:hover:not(.navigationBarActive)
+{
+  background-color: #DA28C0;
+  color: white;
+	transition:all 0.2s;
+}
+
+/*===== Banner Hero - Large image with large Book DJ logo ======*/
+
+/*== id's in alphabetical order ==*/
+
+#hero
+{
+	background-size: cover;
+	margin:0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding:15px;
+}
+
+#hero p
+{
+	color: #ffffff;
+	font-family: 'Cabin', Tahoma, 'Geneva', sans-serif;
+	font-size: 22px;
+	text-align: center;
+}
+
+/* large Book DJ logo */
+#hero img
+{
+	display: block;
+	height:250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*== classes in alphabetical order ==*/
+
+/* background images in hero space */
+.heroCompanyNews
+{
+	background: url("Images/BannerTestimonialsBlurred2.jpg") no-repeat 0;
+}
+
+.heroContact
+{
+	background: url("Images/BannerContactBlurred.jpg") no-repeat 0;
+}
+
+.heroHire
+{
+	background: url("Images/BannerEquipmentHireBlurred.jpg") no-repeat 0;
+}
+
+.heroIndex
+{
+	background: url("Images/BannerHomepageBlurred.jpg") no-repeat 0;
+}
+
+.heroProfile
+{
+	background: url("Images/BannerCreateDJProfileBlurred.jpg") no-repeat 0;
+}
+
+.heroSearch
+{
+	background: url("Images/BannerSearchBlurred.jpg") no-repeat 0;
+}
+
+.heroTestimonial
+{
+	background: url("Images/BannerTestimonialsBlurred.jpg") no-repeat 0;
+}
+
+/*================================= PAGES ====================================*/
+
+/*======================== INDEX page =====================*/
+
+/*====== area for four circles and text that appears below them =====*/
+
+/* id's in alphabetical order */
+
+/* title text styling */
+#fourStepGuide h2
+{
+	font-family: 'lato',"Arial Black", 'Gadget', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+/* styling to colour the circles */
+#fourStepGuideCircle1
+{
+	background: #92D050;
+}
+
+#fourStepGuideCircle2
+{
+	background: #DA28C0;
+}
+
+#fourStepGuideCircle3
+{
+	background: #5054FA;
+}
+
+#fourStepGuideCircle4
+{
+	background: #FF315D;
+}
+
+/*== area created so equally spaced boxes can be inserted to ensure
+	circles are same distance from each other ========*/
+#fourStepGuideCirclesContainer
+{
+	background-color: transparent;
+	height: 160px;
+	width: 100%;
+}
+
+/*=== Area for text that appears below circles ===*/
+#fourStepGuideTextContainer
+{
+	background-color: transparent;
+	height: 70px;
+	margin-bottom: 90px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+/* classes in alphabetical order
+
+/* equal size boxes that circles appear in */
+.circlesContainerCircleBlocks
+{
+	background-color: transparent;
+	float: left;
+	height: 100%;
+	width: 15%;
+}
+
+.circlesContainerCircleBlocks p
+{
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-size: 95px;
+	font-weight: 600;
+	margin-top: 20px;
+	text-align: center;
+}
+
+/* space set so that circles do not appear at extreme ends of container box */
+.circlesContainerEndBlocks
+{
+	background-color: transparent;
+	float: left;
+	height: 100%;
+	width: 5%;
+}
+
+/* equal sized spaces between circles so that dashed lines can be same size and length */
+.circlesContainerSpacesBlocks
+{
+	background-color: transparent;
+	float: left;
+	height: 100%;
+	width: 10%;
+}
+
+.circlesContainerSpacesBlocks p
+{
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-size: 60px;
+	font-weight: 600;
+	margin-top: 23%;
+}
+
+/* styling to create the circle shape and thick border */
+.fourStepGuideCircleShape
+{
+	border-radius: 50%;
+	border-style: solid;
+	font-size: 25px;
+	height: 155px;
+	margin-left: 21%;
+  width: 155px;
+}
+
+/* equal sized spaces between text */
+.textContainerSpacesBlocks
+{
+	background-color: transparent;
+	float: left;
+	height: 100%;
+	width: 10%;
+}
+
+/* equal size boxes that text appears in */
+.textContainerTextBlocks
+{
+	background-color: transparent;
+	float: left;
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	height: 100%;
+	text-align: center;
+	width: 15%;
+}
+
+
+/*========Example search results on index page==========*/
+
+#ExampleSearchResults
+{
+	background-color: transparent;
+	width:100%;
+	height: 500px;
+}
+
+/*===classes listed in order of appearance left to right===*/
+/*container for all elements for each artist*/
+.profilePreviews
+{
+	background-color: #eee9e9;
+	width: 80%;
+	height: 25%;
+	margin-left: 9.5%;
+	margin-top: 10px;
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+.profilePreviews img
+{
+	height: 100%;
+	float: left;
+}
+
+/*each div has width value so can be spread across container*/
+.artistName
+{
+	height: 100%;
+	width: 18%;
+	background-color: transparent;
+	float: left;
+}
+
+.artistName p
+{
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	margin-left: 5%;
+	margin-top: 17%
+}
+
+.starRating
+{
+	height: 100%;
+	width: 18%;
+	background-color: transparent;
+	float: left;
+}
+
+/*styling the google font stars*/
+.starRating i
+{
+	font-size: 40px;
+	float: left;
+	color: black;
+	margin-top: 14%;
+}
+
+.starRating p
+{
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	margin-top: 16%;
+}
+
+.artistCities
+{
+	height: 100%;
+	width: 17%;
+	background-color: transparent;
+	float: left;
+}
+
+.artistCities p
+{
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	width: 120px;
+	height: 30px;
+	background: #DA28C0;
+	float: left;
+	border: 2px double #eee9e9;
+	color: white;
+	border-radius: 3px;
+	margin-top: 16%;
+}
+
+.artistGenres
+{
+	height: 100%;
+	width: 17%;
+	background-color: transparent;
+	float: left;
+}
+
+.artistGenres p
+{
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	width: 120px;
+	height: 30px;
+	background: #5054FA;
+	float: left;
+	border: 2px double #eee9e9;
+	color: white;
+	border-radius: 3px;
+	margin-top: 16%;
+}
+
+.artistPrice
+{
+	height: 100%;
+	width: 11%;
+	background-color: transparent;
+	float: left;
+}
+
+.artistPrice p
+{
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	margin-left: 10%;
+	margin-top: 23%;
+}
+
+/*div saved for placing button in*/
+.artistBook
+{
+	height: 100%;
+	width: 10.3%;
+	background-color: transparent;
+	float: left;
+}
+
+.artistBook button
+{
+	margin-top: 18%;
+	margin-left: 8%;
+	background-color: #FF315D;
+	border: none;
+	color: white;
+	height: 60px;
+	width: 130px;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 40px;
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+}
+
+.artistBook button:hover
+{
+	opacity:0.8;
+	background-color: #BC0028;
+	transition:all 0.2s;
+}
+
+/*==========================SEARCH page=================================*/
+
+#searchCriteria
+{
+	width: 100%;
+	height: 800px;
+	background-color: transparent;
+}
+
+/*search selectors*/
+#searchBoxes
+{
+	width: 1800px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+/*text appearing above each search selector*/
+#searchBoxes label
+{
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-weight: bolder;
+	font-size: 30px;
+	padding: 0px 12px 0px 0px;
+}
+
+#searchBoxes ul
+{
+	width:92%;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:flex-start;
+	list-style-type: none;
+}
+
+#searchBoxes li
+{
+	padding: 30px;
+}
+
+#searchBoxes select
+{
+	width:150px;
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-size: 25px;
+	color: white;
+	background-color: #92D050;
+	border-color: transparent;
+	padding: 5px;
+	line-height: 1;
+	border: 0;
+	border-radius: 2px;
+	height: 35px;
+	/*code to make drop down boxes have styled down-arrow*/
+	background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+		no-repeat right #92D050;
+	-webkit-appearance: none;
+	background-position-x: 200px;
+	width: 225px;
+}
+
+/*code so that search boxes appear correctly in IE*/
+#searchBoxes select::-ms-expand
+{
+	display: none;
+}
+
+#searchButton
+{
+	margin-left: 43%;
+	background-color: black;
+	border: none;
+	color: white;
+	height: 60px;
+	width: 180px;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 40px;
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+}
+
+#searchButton:hover
+{
+	background: rgba(0,0,0,0);
+	color: black;
+	box-shadow: inset 0 0 0 5px black;
+}
+
+/*====================CREATE DJ PROFILE page==================*/
+/*======classes listed in order appears down the page====*/
+/*starts all labels, inputs and checkboxes from same margin point*/
+#createDJProfileForm
+{
+	padding:50px 0px 50px 100px;
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-weight: bolder;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	width:94.69%;
+	height: 1550px;
+}
+
+/*style headers of checkbox questions*/
+#createDJProfileForm h2
+{
+	margin-left: 50px;
+	background: #FF315D;
+	width: 29.5%;
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+	padding: 8px;
+	border-radius: 5px;
+}
+
+/*class referred to by all inputs except checkboxes*/
+.profileForm
+{
+	padding:0px 0px 15px 0px;
+	margin-left: 50px;
+}
+ /*style all inputs except checkboxes*/
+.profileForm label
+{
+	display:block;
+}
+
+/*area used for descriptions, can be long in length*/
+.profileForm textarea
+{
+	padding:10px 10px 200px 10px;
+	width:30%;
+}
+
+/*input and textarea need same borders and colour*/
+.profileForm input, textarea
+{
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: black;
+	background-color: #C2C5C8;
+}
+
+/*======sets all the input boxes themselves with relevants stats*/
+.profileForm input[type="text"]
+{
+	padding:10px;
+	width:30%;
+}
+
+.profileForm input[type="email"]
+{
+	padding:10px;
+	width:30%;
+}
+
+/*telephone number input*/
+.profileForm input[type="tel"]
+{
+	padding:10px;
+	width:10%;
+}
+
+.profileForm input[name="title"]
+{
+	width: 5%;
+}
+
+.profileForm input[name="postcode"]
+{
+	width: 7%;
+}
+
+.profileForm input[name="djName"]
+{
+	width: 20%;
+}
+
+.profileChoices
+{
+	margin-left: 50px;
+}
+
+/*style labels for checkboxes*/
+.profileChoices label
+{
+	float: left;
+	font-size: 19px;
+}
+
+/*style the checkboxes squares*/
+.profileChoices input[type="checkbox"]
+{
+	content: '';
+	background: #fff;
+	border: 10px solid #ddd;
+	display: inline-block;
+	vertical-align: middle;
+	width: 40px;
+	height: 20px;
+	padding: 2px;
+	margin-right: 10px;
+	text-align: center;
+	float: left;
+}
+
+/*button for submitting form*/
+#createDJProfileForm button
+{
+	font-family:'Lato', "Arial Black", 'Gadget', sans-serif;
+	color: white;
+	background-color: #5054FA;
+	color: white;
+	padding: 10px 32px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 14px;
+	width: 15%;
+	margin-left: 11%;
+	margin-top: 3%;
+	border-width: 2px;
+	border-color: transparent;
+	font-weight: bold;
+}
+
+#createDJProfileForm button:hover
+{
+	border-width: 2px;
+	border-color: black;
+	background-color: #070DEF;
+	transition:all 0.2s;
+}
+
+/*used for displaying outputs from javascript.js sheet*/
+#displayFormResults
+{
+	width: 535px;
+	height: auto;
+	background-color: #DAEFC3;
+	font-family: 'Cabin', Tahoma, 'Geneva', sans-serif;
+	margin-left: 150px;
+	margin-bottom: 250px;
+	border-radius: 5px;
+	border-color: #92D050;
+	border-width: 5px;
+	border-style: solid;
+}
+
+#displayFormResults h1
+{
+	width: 535px;
+	text-align: center;
+	color: white;
+	background-color: #92D050;
+}
+
+/*styling headers in the outputs area so no gaps between lines*/
+#displayFormResults h3
+{
+	margin: 0;
+}
+
+/*===============TESTIMONIALS page===================*/
+
+#testimonialsSection
+{
+	width: 100%;
+	height: 1000px;
+	background-color: transparent;
+}
+
+#testimonialsSection ul
+{
+	float: left;
+}
+
+#testimonialsSection li
+{
+	list-style-type: none;
+}
+
+.twitterTestimonial
+{
+	width: 200px;
+	height:auto;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #00ACED; /*twitter blue*/
+	color: white;
+	font-family: 'PT Sans', arial, sans-serif; /*similar to twitter font*/
+}
+
+/*styling the logo at top of box*/
+.twitterTestimonial img
+{
+	height: 40px;
+	margin-left: 70px;
+}
+
+.googlePlusTestimonial
+{
+	width: 200px;
+ 	height:auto;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #DD4B39; /*google plus red*/
+	color: white;
+	font-family: 'Roboto', arial, sans-serif; /*similar to google plus font*/
+}
+
+/*styling the logo at top of box*/
+.googlePlusTestimonial img
+{
+	height: 40px;
+	margin-left: 70px;
+}
+
+/*google plus font styled as by deault appears larger*/
+.googlePlusTestimonial p
+{
+	font-size: 16px;
+}
+
+/*styling the logo at top of box*/
+.facebookTestimonial
+{
+	width: 200px;
+ 	height:auto;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #3B5998; /*facebook blue*/
+	color: white;
+	font-family: 'Source Sans Pro', arial, sans-serif; /*similar to facebook font*/
+}
+
+.facebookTestimonial img
+{
+	height: 40px;
+	margin-left: 75px;
+}
+
+/*==================COMPANY NEWS page========================*/
+
+#newsSection
+{
+	width: 100%;
+	height: 1300px;
+	background-color: transparent;
+}
+
+#newsSection li
+{
+	list-style-type: none;
+	float: left;
+}
+
+#newsSection p
+{
+	text-align: justify;
+}
+
+/*set invisible box that thick lines are in*/
+#newsSection svg
+{
+	height: 200px;
+	width: 1870px;
+}
+
+/*code to create thick round-ended lines*/
+#newsSection svg line
+{
+	stroke:#FF315D;
+	stroke-width:25;
+	stroke-linecap: round;
+}
+
+#newsSection text
+{
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	fill: #FF315D;
+}
+
+.newsRelease
+{
+	width: 200px;
+	height: 400px;
+	background-color: #eee9e9;
+	margin-left: 25px;
+	font-family: "Fira Sans", sans-serif;
+	font-size: 14px;
+}
+
+.newsRelease img
+{
+	width: 200px;
+	height: 200px;
+}
+
+.newsRelease img:hover
+{
+-webkit-filter: blur(5px);
+-moz-filter: blur(5px);
+-o-filter: blur(5px);
+-ms-filter: blur(5px);
+filter: blur(5px);
+transition: 0.4s;
+}
+
+/*headline text*/
+.newsRelease h3
+{
+	margin: 0;
+	text-align: center;
+	font-family: "Fira Sans", sans-serif;
+}
+
+
+
+/*======================EQUIPMENT HIRE page========================*/
+
+#equipmentHireSection
+{
+	width: 100%;
+	height: 1600px;
+	background-color: transparent;
+}
+
+/*set invisible box that thick lines are in*/
+#equipmentHireSection svg
+{
+	height: 200px;
+	width: 1870px;
+}
+
+/*code to create thick round-ended lines*/
+#equipmentHireSection svg line
+{
+	stroke:black;
+	stroke-width:25;
+	stroke-linecap: round;
+}
+
+/*code top style text in between svg lines*/
+#equipmentHireSection text
+{
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	fill: black;
+}
+
+#equipmentHireSection li
+{
+	list-style-type: none;
+	float: left;
+}
+
+/*style the container for the mixers*/
+.mixerWrapperBox
+{
+	width: 200px;
+	height: 420px;
+	background-color: #DA28C0;
+	border: 10px;
+	border-style: solid;
+	border-color: #DA28C0;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+
+/*style the container for the decks*/
+.decksWrapperBox
+{
+	width: 200px;
+	height: 420px;
+	background-color: #FF315D;
+	border: 10px;
+	border-style: solid;
+	border-color: #FF315D;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+
+/*style the text for the product names*/
+.decksMixerNameText
+{
+	width: 200px;
+	height: 50px;
+	background-color: transparent;
+	color: white;
+	text-align: center;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	border-radius: 3px;
+	border-style: solid;
+	border-color: white;
+	border-width: thin;
+	font-family: 'Cabin', Tahoma, 'Geneva', sans-serif;
+}
+
+.statedPrice
+{
+	width: 200px;
+	height: 50px;
+	background-color: transparent;
+	color: white;
+	text-align: center;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	margin-top: 10px;
+	border-radius: 3px;
+	border-style: solid;
+	border-color: white;
+	border-width: thin;
+	font-family: 'Cabin', Tahoma, 'Geneva', sans-serif;
+}
+
+/*white background behind image of mixer*/
+.mixerPicture
+{
+	width: 200px;
+	height: 150px;
+	background-color: white;
+	margin-top: 10px;
+	display:flex;
+	justify-content: center;
+	border-radius: 3px;
+}
+
+/*styled so picture will fit area*/
+.mixerPicture img
+{
+	display: block;
+	max-width:200px;
+	max-height:150px;
+	width: auto;
+	height: auto;
+}
+
+.mixerPricing
+{
+	padding-top: 5px;
+	width: 200px;
+	height: 65px;
+	background-color: white;
+	color: white;
+	margin-top: 10px;
+	border-radius: 3px;
+	font-family: 'Cabin', Tahoma, 'Geneva', sans-serif;
+}
+
+.noOfNights input
+{
+	float: right;
+	width: 30px;
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+}
+
+.noOfNights label
+{
+	color: black;
+}
+
+/*cotainer for labels and input about no of night and price*/
+.boxForCostElements
+{
+	width: 200px;
+	height: 25px;
+	background-color: white;
+	margin-top: 10px;
+}
+
+.costText
+{
+	display: inline;
+	color: black;
+}
+
+.costBox
+{
+	display: inline;
+	float: right;
+	color: black;
+	width:50px;
+	height: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: thin;
+}
+
+.addToBasketButton
+{
+	font-size: 18px;
+	color: white;
+	background-color: #92D050;
+	border: none;
+	border-radius: 3px;
+	height: 30px;
+	width: 200px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 25px;
+}
+
+.addToBasketButton:hover
+{
+	background-color: #6BA42C;
+	border-style: solid;
+	border-color: green;
+	border-width: medium;
+	border-radius: 3px;
+	transition:all 0.2s;
+}
+
+
+
+/*========================CONTACT page=============================*/
+
+/*=====code for all items on left side of page====*/
+
+#contactPage
+{
+	padding:50px 0px 50px 50px;
+	font-family: 'Lato', "Arial Black", 'Gadget', sans-serif;
+	font-weight: bolder;
+	background-color: transparent;
+	display:flex;
+	flex-direction:column;
+	width:50%;
+}
+
+#contactUsForm
+{
+	background-color: transparent;
+	display:flex;
+	flex-direction:row;
+}
+
+.contactForm
+{
+	padding:0px 0px 15px 0px;
+}
+
+/*text above each field*/
+.contactForm label
+{
+	display:block;
+}
+
+.contactForm input[type="text"]
+{
+	padding:10px;
+	width:50%;
+}
+
+.contactForm input[type="email"]
+{
+	padding:10px;
+	width:50%;
+}
+
+.contactForm input[type="number"]
+{
+	padding:10px;
+	width:20%;
+}
+
+.contactForm input[type="tel"]
+{
+	padding:10px;
+	width:20%;
+}
+
+.contactForm textarea
+{
+	padding:10px 10px 200px 10px;
+	width:90%;
+}
+
+/*input and textarea need same borders and colour*/
+.contactForm input, textarea
+{
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: black;
+	background-color: #C2C5C8;
+}
+
+#contactPage button
+{
+	font-family:'Lato', "Arial Black", 'Gadget', sans-serif;
+	color: white;
+	background-color: #5054FA;
+	color: white;
+	padding: 10px 32px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 14px;
+	width: 15%;
+	margin-left: 40%;
+	border-width: 2px;
+	border-color: transparent;
+}
+
+#contactPage button:hover
+{
+	border-width: 2px;
+	border-color: black;
+	background-color: #070DEF;
+	transition:all 0.2s;
+}
+
+/*=====code for all items on right side of page====*/
+
+#contactpageRight
+{
+	padding:50px 0px 50px 50px;
+	width:50%;
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;
+}
+
+#contactSocialMedia a
+{
+	font-family:'Lato', "Arial Black", 'Gadget', sans-serif;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 20px;
+	font-weight: bold;
+}
+
+#contactSocialMedia img
+{
+	height: 80px;
+	width: 80px;
+	padding: 0px 0px 5px 0px;
+}
+
+#contactSocialMedia li
+{
+	list-style-type: none;
+}
+
+#contactSocialMedia p
+{
+	font-family:'Lato', "Arial Black", 'Gadget', sans-serif;
+	color: black;
+	font-size: 20px;
+	padding: 0px 0px 0px 42px;
+	line-height: 40px;
+}

@@ -1,0 +1,282 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Search for a DJ</title>
+	<meta charset="utf-8">
+
+<!--=========================Search engine result content=========-->
+	<meta name="keywords"
+				content="Book DJ talent, hire DJ talent, search for a DJ" />
+	<meta name="description"
+				content="Search for DJ's with set criteria"/>
+	<meta name="author"
+				content="Chris Hotten"/>
+
+<!--=========================Font-family source links==================-->
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Noto Sans JP' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet'>
+
+<!--=========================Google font icon source links==================-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<!--=========================Stylesheet location==================-->
+	<link href="styles.css" rel="stylesheet" />
+
+<!--=========================javascript functions location==================-->
+	<script src="javascript.js"></script>
+
+<!--============================JS code for twitter widget==================-->
+<!--=======HTML code for twitter widget is in Footer-SocialMedia div========-->
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+	<!--==Google map API has been removed due to security concerns around credit
+		card billing and potential abuse of the API being used by unlimited sites==-->
+
+</head>
+
+<body>
+<!--=========================Header==================-->
+<div id="headerAndNavbar">
+	<header>
+		<section id="header">
+			<a href="index.html">
+			<img src="Images/WebsiteLogoHomepage.png" alt="Book DJ logo top left small logo"
+					 id="headerSmallBookDJLogo" />
+			</a>
+			<img src="Images/LoginSymbol1.png" alt="login symbol top right of page"
+				 id="headerLoginSymbol" />
+			<button type="button" id="headerLoginButton">
+			LOGIN
+			</button>
+			<button type="button" id="headerCreateAccountButton">
+			CREATE ACCOUNT
+			</button>
+		</section>
+	</header>
+
+<!--=========================Navigation Bar==================-->
+<!--==========Nav bar hyperlink text attributes set in id "navbar a"=========-->
+<!--==========Change the "active" on every page to match the page!===========-->
+		<section id="navigationBar">
+			<a href="index.html">HOME</a>
+			<a href="BookDJSearch.html" class="navigationBarActive">SEARCH</a>
+			<a href="BookDJCreateDJProfile.html">CREATE DJ PROFILE</a>
+			<a href="BookDJTestimonials.html">TESTIMONIALS</a>
+			<a href="BookDJCompanyNews.html">COMPANY NEWS</a>
+			<a href="BookDJEquipmentHire.html">EQUIPMENT HIRE</a>
+			<a href="BookDJContact.html">CONTACT</a>
+		</section>
+	</div>
+
+
+<!--=========================Hero image with overlaid text==================-->
+	<section id="hero" class="heroSearch">
+<!--image id is created for use by Javascript-->
+		<img id=heroFrontImage src="Images/WebsiteLogo.png" alt="main Book DJ logo" />
+		<p>Use our powerful search tools to help you find the perfect DJ.
+	 	<br>
+		Simply use the drop-down boxes to choose the options that fit your needs.
+		<br>
+		Hit the 'Search' button and let our database do all the heavy work.</p>
+	</section>
+
+<!--=========================Area with drop-down boxes==================-->
+	<section id="searchCriteria">
+		<div id="searchBoxes">
+			<ul>
+				<li>
+					<h4><label>Genre: </label></h4>
+					<select name="genre">
+						<option value="genre0">Select...</option>
+						<option value="genre1">Big Beat</option>
+						<option value="genre2">Dance</option>
+						<option value="genre3">Electro</option>
+						<option value="genre4">House</option>
+						<option value="genre5">Tech House</option>
+						<option value="genre6">Techno</option>
+					</select>
+				</li>
+				<li>
+					<h4><label>Date: </label></h4>
+					<select name="date">
+						<option value="date0">Select...</option>
+						<option value="date1">24/05/19</option>
+						<option value="date2">25/05/19</option>
+						<option value="date3">26/05/19</option>
+						<option value="date4">27/05/19</option>
+						<option value="date5">28/05/19</option>
+						<option value="date6">29/05/19</option>
+					</select>
+				</li>
+				<li>
+					<h4><label>Time Start: </label></h4>
+					<select name="time">
+						<option value="time0">Select...</option>
+						<option value="time1">20:00</option>
+						<option value="time2">20:30</option>
+						<option value="time3">21:00</option>
+						<option value="time4">21:30</option>
+						<option value="time5">22:00</option>
+						<option value="time6">22:30</option>
+						<option value="time7">23:00</option>
+						<option value="time8">23:30</option>
+						<option value="time9">00:00</option>
+					</select>
+				</li>
+				<li>
+					<h4><label>Duration (mins): </label></h4>
+					<select name="duration">
+						<option value="duration0">Select...</option>
+						<option value="duration1">60</option>
+						<option value="duration2">90</option>
+						<option value="duration3">120</option>
+						<option value="duration4">150</option>
+						<option value="duration5">180</option>
+						<option value="duration6">210</option>
+						<option value="duration7">240</option>
+						<option value="duration8">270</option>
+						<option value="duration9">300</option>
+					</select>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<h4><label>Town/City: </label></h4>
+					<select name="town">
+						<option value="town0">Select...</option>
+						<option value="town1">Birmingham</option>
+						<option value="town2">Edinburgh</option>
+						<option value="town3">Newcastle</option>
+						<option value="town4">Norwich</option>
+						<option value="town5">Sheffield</option>
+						<option value="town6">Sunderland</option>
+					</select>
+				</li>
+	 			<li>
+					<h4><label>Mixer Available: </label></h4>
+					<select name="mixer">
+						<option value="mixer0">Select...</option>
+						<option value="mixer1">DJM-350</option>
+						<option value="mixer2">DJM-450</option>
+						<option value="mixer3">DJM-750</option>
+						<option value="mixer4">DJM-800</option>
+						<option value="mixer5">DJM-850s</option>
+						<option value="mixer6">DJM-S9</option>
+					</select>
+				</li>
+				<li>
+					<h4><label>Decks Available: </label></h4>
+					<select name="decks">
+						<option value="decks0">Select...</option>
+						<option value="decks1">CDJ-350W</option>
+						<option value="decks2">CDJ-850</option>
+						<option value="decks3">CDJ-900 Nexus</option>
+						<option value="decks4">CDJ-1000 MK3</option>
+						<option value="decks5">CDJ-2000 Nexus</option>
+					</select>
+				</li>
+				<li>
+					<h4><label>Max Price p/h: </label></h4>
+					<select name="price">
+						<option value="price0">Select...</option>
+						<option value="price1">£1000</option>
+						<option value="price2">£2000</option>
+						<option value="price3">£3000</option>
+						<option value="price4">£4000</option>
+						<option value="price5">£5000</option>
+						<option value="price6">£6000</option>
+						<option value="price7">£7000</option>
+					</select>
+				</li>
+			</ul>
+			<button type="button" id="searchButton">
+				SEARCH
+			</button>
+		</div>
+	</section>
+
+<!--=========================Footer==================-->
+<footer>
+
+<div id='footerAddress'>
+	<img src="Images/WebsiteLogo.png" alt="Book DJ footer logo" />
+	<p>Room T610<br>
+	Trevelyn Building<br>
+	Rye Hill Campus<br>
+	Scotswood Road<br>
+	NE4 7SA<br>
+	0191 200 4000<br>
+	</p>
+	<a href="mailto:email@example.com" <i class="material-icons">&#xe0be;</i></a>
+</div>
+
+<div id='footerSocialMedia'>
+	<p>Follow Us:</p>
+	<ul>
+		<li>
+			<a href="http://www.googleplus.com"><img src="Images/IconGooglePlusWhite.png"
+					alt="Google Plus footer logo" id="footerSocialMediaLogoGooglePlus" /></a>
+		</li>
+		<li>
+			<a href="http://www.twitter.com"><img src="Images/IconTwitterWhite.png"
+					alt="Twitter footer logo" id="footerSocialMediaLogoTwitter" /></a>
+		</li>
+		<li>
+			<a href="http://www.facebook.com"><img src="Images/IconFacebookWhite.png"
+					alt="Facebook footer logo" id="footerSocialMediaLogoFacebook" /></a>
+		</li>
+		<li>
+			<a href="http://www.instagram.com"><img src="Images/IconInstagramWhite.png"
+					alt="Instagram footer logo" id="footerSocialMediaLogoInstagram" /></a>
+		</li>
+		<li>
+			<a href="http://www.youtube.com"><img src="Images/IconYouTubeWhite.png"
+					alt="YouTube footer logo" id="footerSocialMediaLogoYouTube" /></a>
+		</li>
+	</ul>
+
+	<a class="twitter-timeline" data-width="400" data-height="200"
+	href="https://twitter.com/NCLCollege?ref_src=twsrc%5Etfw">Tweets by NCLCollege</a>
+</div>
+
+<div id="footerSiteLinks">
+	<p>Site Links:</p>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="BookDJSearch.html">Search</a></li>
+		<li><a href="BookDJCreateDJProfile.html">Create DJ Profile</a></li>
+		<li><a href="BookDJTestimonials.html">Testimonials</a></li>
+		<li><a href="BookDJCompanyNews.html">Company News</a></li>
+		<li><a href="BookDJEquipmentHire.html">Equipment Hire</a></li>
+		<li><a href="BookDJContact.html">Contact</a></li>
+	</ul>
+</div>
+
+<div id='footerSignUp'>
+	<p>Sign up for our newsletter:</p>
+	<form id='footerSignUpSubscribeForm'>
+		<input type="email" placeholder="Your email here" />
+		<button type="submit">
+		Subscribe
+		</button>
+	</form>
+</div>
+
+<!-- Google map removed due to credit card billing and API abuse concerns -->
+<!--<div id="footerMap">
+	<p>Find us here:</p>
+	<div id="map"></div>
+</div> -->
+
+</footer>
+
+<div id="copyrightDeclaration">
+<p>Designed and coded by <a href="http://www.chrishotten.co.uk">Chris Hotten</a> 2019, 2020</p>
+
+</div>
+
+</body>
+
+</html>

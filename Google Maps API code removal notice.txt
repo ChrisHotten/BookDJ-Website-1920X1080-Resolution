@@ -1,0 +1,6 @@
+**Please note that the Google Map API code has been removed
+from code for the Book DJ webpages, due to concerns about 
+the potential for unlimited use of the API key by unlimited 
+websites and charges for this being tied to my credit card 
+as per the change in policy brought in for all users
+(whether for commercial or non-commercial) use by Google**
